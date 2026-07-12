@@ -1,0 +1,212 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Public Sans", sans-serif;
+    color: #ffffff;
+}
+
+:root {
+    --bg-color: #0c0c0d;        /* Fundo principal  0c0c0d*/
+    --text-primary: #e2e2e3;   /* Texto principal */
+    --text-secondary: #a1a1aa; /* Subtítulos e descrições */
+    --accent-color: #10b981;   /* Verde esmeralda (links e detalhes) */
+    --border-color: #27272a;   /* Linhas separadoras */
+    --background-color: #18181b;
+    --border-bottom-color: #2e2e2e;
+    --font-family: 'Public Sans', -apple-system, sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-primary);
+    font-family: var(--font-family);
+    line-height: 1.6;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    background-color: var(--background-color);
+    height: 50px;
+    border-bottom: 1px solid var(--border-bottom-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    transition: top 0.5s ease;
+    view-transition-name: a;
+}
+
+header h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+
+p:not(.block-title) {
+    font-size: 1.1rem;
+    margin: 1.25rem 0;
+    color: oklch(0.92 0.004 286.067);
+}
+
+#container {
+    background-color: var(--background-color);
+    max-width: 100vw;
+    min-width: 100vw;
+    height: 100%;
+    min-height: 100vh;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+}
+
+.title {
+    padding: 2rem 0;
+    border-bottom: 1px solid var(--border-bottom-color);
+    
+}
+
+#container h1 {
+    font-size: 2.25rem;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-top: 0;
+    margin-bottom: 1.5rem;
+    font-weight: bold;
+    font-weight: 700;
+}
+
+#container h2 {
+    margin: 3rem 0 1.5rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+#container h2 a {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+#container h3 {
+    margin: 2rem 0 1rem;
+    font-weight: 700;
+    border-bottom: 1px solid var(--border-bottom-color);
+}
+
+#container h3 a {
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+
+.info-block {
+    --cor: white;
+    margin: 1.25rem 0;
+    padding: 0.5rem 1rem;
+    color: var(--cor);
+    width: 100%;
+    box-sizing: border-box;
+    border-left: 0.25em solid var(--cor);
+}
+
+.info-block:not(p) {
+    color: white !important;
+}
+
+.info-block .block-title {
+    font-size: 1rem;
+    margin: 0 0 1rem;
+    color: var(--cor);
+}
+
+.tip-block {
+    --cor: #3fb950; /*3fb950*/
+}
+
+.note-block {
+    --cor: #2f81f7;
+}
+
+.canvas {
+    color: black;
+    background-color: black;
+    border: 1px solid #C6D0F5;
+    border-radius: 10px;
+    height: auto;
+    width: 100%;
+    aspect-ratio: 1 / 1;
+}
+
+.banner {
+    background-color: red;
+    width: calc(100% + 2rem);
+    height: 20dvh;
+    margin-left: -1rem;
+    background-image: url(../images/pattern1.svg);
+    background-size: cover;
+    background-position: center;
+}
+
+img {
+    background-color: black;
+    width: 100%;
+    height: 50%;
+    border: none;
+    outline: none;
+}
+
+iframe {
+    width: 100%;
+    height: 50%;
+    aspect-ratio: 16 / 9;
+}
+
+footer {
+    background-color: var(--background-color);
+}
+
+#nav {
+    background-color: var(--background-color);
+    color: var(--text-secondary);
+    font-size: 0.9rem;
+    padding-left: 1rem
+
+}
+#nav a {
+    color: var(--text-secondary);
+}
+
+@view-transition {
+    navigation: auto;
+}
+
+::view-transition-old(root) {
+    animation: none;
+}
+
+::view-transition-new(root) {
+    animation: slideIn 0.2s ease;
+}
+
+
+@keyframes slideIn {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "aa": {
+        "titulo": "Aa",
+        "path": "matematica\\aa"
+    },
+    "abacaxi": {
+        "titulo": "Abacaxi",
+        "path": "matematica\\abacaxi"
+    },
+    "casa": {
+        "titulo": "Casa",
+        "path": "matematica\\casa"
+    },
+    "expoente": {
+        "titulo": "Expoente",
+        "path": "matematica\\expoente"
+    },
+    "funcao-quadratica": {
+        "titulo": "Funcao quadratica",
+        "path": "matematica\\funcao-quadratica"
+    },
+    "logaritmos": {
+        "titulo": "Logaritmos",
+        "path": "matematica\\logaritmos"
+    },
+    "lorem": {
+        "titulo": "Lorem",
+        "path": "matematica\\lorem"
+    },
+    "oi": {
+        "titulo": "Oi",
+        "path": "matematica\\oi"
+    },
+    "polinomios": {
+        "titulo": "Polinomios",
+        "path": "matematica\\polinomios"
+    },
+    "teste": {
+        "titulo": "Teste",
+        "path": "matematica\\teste"
+    },
+    "uva": {
+        "titulo": "Uva",
+        "path": "matematica\\uva"
+    }
+}
