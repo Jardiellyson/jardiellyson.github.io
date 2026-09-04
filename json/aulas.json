@@ -19,32 +19,8 @@
         "titulo": "Funcao quadratica",
         "path": "matematica\\funcao-quadratica"
     },
-    "logaritmos": {
-        "titulo": "Logaritmos",
-        "path": "matematica\\logaritmos"
-    },
-    "lorem": {
-        "titulo": "Lorem",
-        "path": "matematica\\lorem"
-    },
-    "novoteste": {
-        "titulo": "Novoteste",
-        "path": "matematica\\novoteste"
-    },
-    "oi": {
-        "titulo": "Oi",
-        "path": "matematica\\oi"
-    },
-    "polinomios": {
-        "titulo": "Polinomios",
-        "path": "matematica\\polinomios"
-    },
-    "teste": {
-        "titulo": "Teste",
-        "path": "matematica\\teste"
-    },
-    "uva": {
-        "titulo": "Uva",
-        "path": "matematica\\uva"
+    "limites": {
+        "titulo": "Limites",
+        "path": "matematica\\limites"
     }
 }
