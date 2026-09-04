@@ -27,6 +27,10 @@
         "titulo": "Lorem",
         "path": "matematica\\lorem"
     },
+    "novoteste": {
+        "titulo": "Novoteste",
+        "path": "matematica\\novoteste"
+    },
     "oi": {
         "titulo": "Oi",
         "path": "matematica\\oi"
